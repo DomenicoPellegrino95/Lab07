@@ -28,7 +28,8 @@ public class Model {
 					grafo.addEdge(s, s2);
 			}
 		}
-		return new ArrayList<String>();
+		
+		return parole;
 	}
 
 	public List<String> displayNeighbours(String parolaInserita) {

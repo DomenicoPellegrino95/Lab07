@@ -15,7 +15,7 @@ public class WordDAO {
 	public List<String> getAllSimilarWords(String parola, int numeroLettere) {
 		
 		Connection conn = DBConnect.getInstance().getConnection();
-		String sql = "SELECT nome FROM parola WHERE nome=?;";
+		String sql = "SELECT nome FROM parola WHERE nome=? ;";
 		PreparedStatement st;
 	
 
